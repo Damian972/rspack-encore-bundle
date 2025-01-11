@@ -1,0 +1,4 @@
+{
+	"port": 8089,
+	"watchFiles": ["assets/**/*.{scss,css,ts,js}", "templates/**/*"]
+}

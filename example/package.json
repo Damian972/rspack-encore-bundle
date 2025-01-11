@@ -1,0 +1,25 @@
+{
+	"name": "damian972/rspack-encore-bundle",
+	"module": "assets/index.ts",
+	"type": "commonjs",
+	"scripts": {
+		"build": "rspack build",
+		"dev": "rspack serve"
+	},
+	"devDependencies": {
+		"@rspack/cli": "^1.1.8",
+		"@rspack/core": "^1.1.8",
+		"@types/bun": "latest",
+		"assets-webpack-plugin": "^7.1.1",
+		"autoprefixer": "^10.4.20",
+		"postcss": "^8.4.49",
+		"postcss-loader": "^8.1.1",
+		"rspack-manifest-plugin": "^5.0.3",
+		"sass-embedded": "^1.83.1",
+		"sass-loader": "^16.0.4",
+		"tailwindcss": "^3.4.17"
+	},
+	"peerDependencies": {
+		"typescript": "^5.7.3"
+	}
+}
